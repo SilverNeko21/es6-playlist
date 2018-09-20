@@ -69,7 +69,7 @@ const data = [
         image: ""
     },
     {
-        artist: "DBamgz",
+        artist: "DBangz",
         genre: "Rap",
         song: "Thick Niggas and Anime Tiddies",
         image: ""
