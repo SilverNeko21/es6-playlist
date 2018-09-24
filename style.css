@@ -1,28 +1,67 @@
-#music {
-    display: flex;
-    
+body, html{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height:100%;
+    background-color: #0C0C0C;
 }
 
+#genres{
+    color: white;
+}
 
+#title{
+    height: 8%;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    color: white;
+    background-color: #191919;
+    font-size: 250%;
+}
+
+#music {
+    display: flex;
+    flex-direction: row;
+}
+
+#left-side{
+    display: flex;
+    flex-direction: column;
+}
+
+#right-side{
+    display: flex;
+    flex-direction: row;
+}
+
+.audio{
+    position: relative;
+}
 
 .dubstepCategory {
     border: 1px solid black;
+    color: white;
 }
 
 .rapCategory {
     border: 1px solid black;
+    color: white;
 }
 
 .animeCategory {
     border: 1px solid black;
+    color: white;
 }
 
 .nightcoreCategory {
     border: 1px solid black;
+    color: white;
 }
 
 .favoriteCategory {
     border: 1px solid black;
+    color: white;
 }
 
 .images{
