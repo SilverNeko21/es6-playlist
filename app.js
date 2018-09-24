@@ -8,7 +8,7 @@ function dubstepSection(){
         console.log('music', music);
         return `
         <div class = "dubstepCategory"> 
-            <div> ${music.image}</div>
+            <img src="${music.image}" class="images"> 
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
         </div>
@@ -31,7 +31,7 @@ function rapSection(){
         console.log('music', music);
         return `
         <div class = "rapCategory">
-            <div> ${music.image}</div>
+            <img src="${music.image}" class="images">
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
         </div>
@@ -41,4 +41,73 @@ function rapSection(){
 
     const rapArtist = document.querySelector('#musicSelection');
     rapArtist.innerHTML = rapGenre;
+}
+
+
+//Anime
+function animeSection(){
+
+    const animeGenre = data.filter((music) => {
+        return music.genre == "Anime";
+    })
+    .map((music) => {
+        console.log('music', music);
+        return `
+        <div class = "animeCategory">
+            <img src="${music.image}" class="images"</div>
+            <div>Artist: ${music.artist}</div>
+            <div>Song: ${music.song}</div>
+        </div>
+        `;
+    })
+    .join('');
+
+    const animeArtist = document.querySelector('#musicSelection');
+    animeArtist.innerHTML = animeGenre;
+}
+
+
+//Nightcore
+function nightcoreSection(){
+
+    const nightcoreGenre = data.filter((music) => {
+        return music.genre == "Nightcore";
+    })
+    .map((music) => {
+        console.log('music', music);
+        return `
+        <div class = "nightcoreCategory">
+            <img src="${music.image}" class="images"</div>
+            <div>Artist: ${music.artist}</div>
+            <div>Song: ${music.song}</div>
+        </div>
+        `;
+    })
+    .join('');
+
+    const nightcoreArtist = document.querySelector('#musicSelection');
+    nightcoreArtist.innerHTML = nightcoreGenre;
+}
+
+
+//Favorites
+function favoriteSection(){
+
+    const favoriteGenre = data.filter((music) => {
+        return music.genre[0] == " ";
+    })
+    .map((music) => {
+        console.log('music', music);
+        return `
+        <div class = "favoriteCategory">
+            <img src="${music.image}" class="images"</div>
+            <div>Artist: ${music.artist}</div>
+            <div>Song: ${music.song}</div>
+        </div>
+        `;
+    })
+    .join('');
+
+    const favoriteArtist = document.querySelector('#musicSelection');
+    favoriteArtist.innerHTML = favoriteGenre;
 }
