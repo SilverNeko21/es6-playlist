@@ -11,8 +11,7 @@ function dubstepSection(){
             <img src="${music.image}" class="images"> 
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
-            <div> <audio controls class="audio"> <source src='${music.play}'</div>
-            </div>
+            <div> <audio controls class="audio"> <source src='${music.play}'> </div>
         </div>
         `;
     })
@@ -36,8 +35,7 @@ function rapSection(){
             <img src="${music.image}" class="images">
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
-            <div> <audio controls class="audio"> <source src='${music.play}'</div>
-            </div>
+            <div> <audio controls class="audio"> <source src='${music.play}'> </div>
         </div>
         `;
     })
@@ -61,8 +59,7 @@ function animeSection(){
             <img src="${music.image}" class="images"</div>
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
-            <div> <audio controls class="audio"> <source src='${music.play}'</div>
-            </div>
+            <div> <audio controls class="audio"> <source src='${music.play}'> </div>
         </div>
         `;
     })
@@ -86,8 +83,7 @@ function nightcoreSection(){
             <img src="${music.image}" class="images"</div>
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
-            <div> <audio controls class="audio"> <source src='${music.play}'</div>
-            </div>
+            <div> <audio controls class="audio"> <source src='${music.play}'> </div>
         </div>
         `;
     })
@@ -111,8 +107,7 @@ function favoriteSection(){
             <img src="${music.image}" class="images"</div>
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
-            <div> <audio controls class="audio"> <source src='${music.play}'</div>
-            </div>
+            <div> <audio controls class="audio"> <source src='${music.play}'> </div>
         </div>
         `;
     })
