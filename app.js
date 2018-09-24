@@ -17,7 +17,7 @@ function dubstepSection(){
     })
     .join('');
 
-    const dubstepArtist = document.querySelector('#musicSelection');
+    const dubstepArtist = document.querySelector('#bottom');
     dubstepArtist.innerHTML = dubstepGenre;
 }
 
@@ -41,7 +41,7 @@ function rapSection(){
     })
     .join('');
 
-    const rapArtist = document.querySelector('#musicSelection');
+    const rapArtist = document.querySelector('#bottom');
     rapArtist.innerHTML = rapGenre;
 }
 
@@ -65,7 +65,7 @@ function animeSection(){
     })
     .join('');
 
-    const animeArtist = document.querySelector('#musicSelection');
+    const animeArtist = document.querySelector('#bottom');
     animeArtist.innerHTML = animeGenre;
 }
 
@@ -89,7 +89,7 @@ function nightcoreSection(){
     })
     .join('');
 
-    const nightcoreArtist = document.querySelector('#musicSelection');
+    const nightcoreArtist = document.querySelector('#bottom');
     nightcoreArtist.innerHTML = nightcoreGenre;
 }
 
@@ -113,6 +113,6 @@ function favoriteSection(){
     })
     .join('');
 
-    const favoriteArtist = document.querySelector('#musicSelection');
+    const favoriteArtist = document.querySelector('#bottom');
     favoriteArtist.innerHTML = favoriteGenre;
 }
