@@ -12,6 +12,7 @@ function dubstepSection(){
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
             <div> <audio controls class="audio"> <source src='${music.play}'</div>
+            </div>
         </div>
         `;
     })
@@ -36,6 +37,7 @@ function rapSection(){
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
             <div> <audio controls class="audio"> <source src='${music.play}'</div>
+            </div>
         </div>
         `;
     })
@@ -60,6 +62,7 @@ function animeSection(){
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
             <div> <audio controls class="audio"> <source src='${music.play}'</div>
+            </div>
         </div>
         `;
     })
@@ -84,6 +87,7 @@ function nightcoreSection(){
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
             <div> <audio controls class="audio"> <source src='${music.play}'</div>
+            </div>
         </div>
         `;
     })
@@ -108,6 +112,7 @@ function favoriteSection(){
             <div>Artist: ${music.artist}</div>
             <div>Song: ${music.song}</div>
             <div> <audio controls class="audio"> <source src='${music.play}'</div>
+            </div>
         </div>
         `;
     })
