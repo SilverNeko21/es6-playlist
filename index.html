@@ -12,17 +12,20 @@
    
     <div id="music">
         <div id="top">
-            <h1 id="genres">Genres:</h1>
+            <button onclick = "no()" id="genres">Genres:</button>
             <button onclick = "dubstepSection()"> Dubstep </button>
             <button onclick = "rapSection()"> Rap </button>
             <button onclick = "animeSection()"> Anime </button>
             <button onclick = "nightcoreSection()"> Nightcore </button>
             <button onclick = "favoriteSection()"> Favorites </button>
+            <button onclick = "randomSong()" id="random"> Random! </button>
+            <button onclick = "earRap()" id="warning"> Don't Click This! </button>
         </div>
 
         <div id="bottom"> 
             <h1 id=":)"> Choose A genre :) </h1>
         </div>
+        <div id="musicArea"> </div>
     </div>
     <script src="data.js"></script>
     <script src="app.js"></script>

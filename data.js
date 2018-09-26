@@ -222,3 +222,5 @@ const data = [
         play: "Audio/Sun and Moon Rival Gladion Remix.mp3"
     }
 ];
+
+const random = ["Audio/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3", "Audio/Skrillex - First Of The Year (Equinox) [Official Audio].mp3", "Audio/Knife Party - Centipede.mp3", "Audio/Skrillex - Scary Monsters And Nice Sprites (Official Audio).mp3", "Audio/Meg & Dia - Monster (Nightcore Dubstep Remix).mp3", "Audio/SKRILLEX - KYOTO (FT. SIRAH).mp3"];
