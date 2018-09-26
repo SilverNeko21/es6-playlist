@@ -128,6 +128,26 @@ function randomSong(){
    `
 }
 
+//Ear rape
+function earRape(){
+    const ear = `
+    <div>
+        <audio autoplay class="audio"> <source src='Audio/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Skrillex - First Of The Year (Equinox) [Official Audio].mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Nippontradamus - Extended Remix.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/FRIED NOODLES.mp'>
+        <audio autoplay class="audio"> <source src='Audio/Zen Zen Zense (前前前世)AMVRADWIMPS - Kimi no Na wa (Your Name) 君の名は Theme Song.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Eromanga Sensei Op - Hitorigoto (Simpsonill Remix).mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Nightcore - Ievan Polkka (VSNS Remix).mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Nightcore - Rockefeller Street.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/スパークル [original ver.] -Your name. Music Video edition- 予告編 from new album人間開花初回盤DVD.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Daft Punk - Harder, Better, Faster, Stronger (Far Out Remix).mp3'>
+
+    </div>
+    `
+    const rape = document.querySelector('#musicArea');
+    rape.innerHTML = ear;
+}
 
 //Secrets
 function no(){
