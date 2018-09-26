@@ -156,11 +156,13 @@ button{
 }
 
 #back{
-    text-align: center;
     width: 10%;
     height: 5%;
     margin: auto;
     margin-top: 0%;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 #gback{
