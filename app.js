@@ -1,5 +1,3 @@
-var wow = [0];
-
 //Dubstep
 function dubstepSection(){
 
@@ -130,6 +128,7 @@ function randomSong(){
 
 //Ear rape
 function earRape(){
+    if (confirm('u sure?')) {
     const ear = `
     <div>
         <audio autoplay class="audio"> <source src='Audio/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3'>
@@ -142,11 +141,21 @@ function earRape(){
         <audio autoplay class="audio"> <source src='Audio/Nightcore - Rockefeller Street.mp3'>
         <audio autoplay class="audio"> <source src='Audio/スパークル [original ver.] -Your name. Music Video edition- 予告編 from new album人間開花初回盤DVD.mp3'>
         <audio autoplay class="audio"> <source src='Audio/Daft Punk - Harder, Better, Faster, Stronger (Far Out Remix).mp3'>
-
+        <audio autoplay class="audio"> <source src='Audio/Knife Party - Centipede.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Skrillex - Scary Monsters And Nice Sprites (Official Audio).mp3'>
+        <audio autoplay class="audio"> <source src='Audio/PINK GUY COOKS FRIED RICE AND RAPS.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Eminem - Rap God (Explicit).mp3'>
+        <audio autoplay class="audio"> <source src='Audio/One Punch Man Opening Full Version.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Noragami Aragoto - Official Opening - Kyouran Hey Kids!!.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Nightcore - Take A Hint.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Nightcore - Die Young.mp3'>
+        <audio autoplay class="audio"> <source src='Audio/My Chemical Romance - Welcome To The Black Parade [Official Music Video].mp3'>
+        <audio autoplay class="audio"> <source src='Audio/Tokyo Ghoul OPOpening FullUnravel - TK.mp3'>
     </div>
     `
     const rape = document.querySelector('#musicArea');
     rape.innerHTML = ear;
+    }
 }
 
 //Secrets
