@@ -224,4 +224,4 @@ const data = [
 ];
 
 var wow = [0];
-const random = ["Audio/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3", "Audio/Skrillex - First Of The Year (Equinox) [Official Audio].mp3", "Audio/Knife Party - Centipede.mp3", "Audio/Skrillex - Scary Monsters And Nice Sprites (Official Audio).mp3", "Audio/Meg & Dia - Monster (Nightcore Dubstep Remix).mp3", "Audio/SKRILLEX - KYOTO (FT. SIRAH).mp3"];
+const random = ["Audio/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3", "Audio/Skrillex - First Of The Year (Equinox) [Official Audio].mp3", "Audio/Knife Party - Centipede.mp3", "Audio/Skrillex - Scary Monsters And Nice Sprites (Official Audio).mp3", "Audio/Meg & Dia - Monster (Nightcore Dubstep Remix).mp3", "Audio/SKRILLEX - KYOTO (FT. SIRAH).mp3", "Audio/Nippontradamus - Extended Remix.mp3", "Audio/Eminem - Rap God (Explicit).mp3", "Audio/Zen Zen Zense (前前前世)AMVRADWIMPS - Kimi no Na wa (Your Name) 君の名は Theme Song.mp3", "Audio/Eromanga Sensei Op - Hitorigoto (Simpsonill Remix).mp3"];

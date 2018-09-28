@@ -128,7 +128,7 @@ function randomSong(){
 
 //Ear rape
 function earRape(){
-    if (confirm('u sure?')) {
+    if (confirm('Are you sure?')) {
     const ear = `
     <div>
         <audio autoplay class="audio"> <source src='Audio/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3'>
